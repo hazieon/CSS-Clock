@@ -31,6 +31,16 @@ img {
   display: none;
 }
 
+.minhand {
+  position: absolute;
+  height: 120px;
+  width: 2px;
+  border-top: 120px solid blue;
+}
+.hide {
+  display: none;
+}
+
 #message-container {
   position: fixed;
   display: flex;
