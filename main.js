@@ -1,12 +1,22 @@
 const hand = document.querySelector(".hand");
-
+//hand.style.transform.transform-origin =10%;
 //hand.style.transform = `rotate(90deg)`; // example of how to rotate the hand
+let second =  0; 
 
 function handRotate(){
-    hand.style.transform = `rotate(6deg)`;   
+
+hand.style.transform = `rotate(+${second}deg)`;
+second = second +6;
+console.log("hello");
 }
 
-handRotate();
+let secondHand = setInterval(handRotate, 1000); 
+
+
+
+
+//"rotate(" + sdegree + "deg)";
+//handRotate();
 
 
 // define the seconds hand element in HTML to JS
