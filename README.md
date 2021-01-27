@@ -1,15 +1,12 @@
 # What makes you tick?
 
-In this challenge we will be using our new found knowledge of setInterval to make the hand of this clock tick. Break down the problem, make a plan, and then translate it into code.
+A CSS ticking clock!
+A pair programming project from early on in my coding journey. 
+We made this little app to practice CSS and transformations as a part of the School of Code bootcamp, week 2.
 
 ## Requirements
 
-- We should use setInterval
-- The hand should move round the clock every second and should complete a full revolution in 60 seconds
-- We will adjust the rotation of the hand using the transform property as demonstrated in `main.js`
+- We used setInterval
+- The hand moves round the clock every second and should complete a full revolution in 60 seconds
+- We adjusted the rotation of the hand using the transform property as demonstrated in `main.js`
 
-## Bonus
-
-- use the JS Date object to get the real seconds.
-- add a minute hand
-- add an hour hand
